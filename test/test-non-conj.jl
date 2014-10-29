@@ -12,7 +12,7 @@ const p = 0.5
     a
 end
 
-as = float(sample(test_geom, 10^4))
+as = float(sample(test_geom, 10^6))
 
 ms = mean(as)
 vs = sqrt(var(as))
